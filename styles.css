@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&family=Outfit:wght@300;400;600;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 body {
-	width: 1440px;
 	background-color: hsl(212, 45%, 89%);
 	font-family: 'Outfit', sans-serif;
 	min-height: 100vh;
@@ -14,7 +11,8 @@ body {
 
 .wrapper {
   width: 100%;
-  margin: 80px auto;
+  margin: 1rem auto;
+	padding: 1rem;
 }
 .card {
 	background-color: hsl(0, 0%, 100%);
@@ -22,7 +20,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
-	margin-top: 200px;
+	margin-top: 3rem;
 	padding: 15px;
 	border: 1px solid white;
 	border-radius: 20px;
