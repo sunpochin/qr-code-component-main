@@ -30,16 +30,18 @@ body {
 
 }
 
-img {
+/* img {
 	width: 300px;
 	margin: auto;
 	border-radius: 10px;
-}
+} */
+
+img { display: block; max-width: 100%}
 
 .first,
 .second {
 	text-align: center;
-	padding: 20px;
+	padding: 1rem;
 }
 
 .first {
