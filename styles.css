@@ -28,6 +28,9 @@ body {
 }
 
 
+.iambusy {
+	display: flex;
+}
 
 
 /* img {
