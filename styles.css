@@ -6,14 +6,17 @@ body {
 	min-height: 100vh;
 
 	display: flex;
-	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* flex-direction: column; */
 }
 
-.wrapper {
+/* .wrapper {
   width: 100%;
   margin: 1rem auto;
 	padding: 1rem;
-}
+} */
+
 .card {
 	background-color: hsl(0, 0%, 100%);
 	width: 300px;
@@ -25,11 +28,6 @@ body {
 	border: 1px solid white;
 	border-radius: 20px;
 	justify-content: center;
-}
-
-
-.iambusy {
-	display: flex;
 }
 
 
